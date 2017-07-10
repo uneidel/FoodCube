@@ -7,7 +7,6 @@ Adafruit_PCD8544 display = Adafruit_PCD8544(13, 11, 9, 10, 8);
 #include "Wire.h"
 
 MPU6050 accelgyro;
-
 int16_t ax, ay, az;
 int16_t oldax;
 int16_t gx, gy, gz;
